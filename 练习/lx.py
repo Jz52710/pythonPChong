@@ -1,0 +1,3 @@
+from pyquery import PyQuery
+res = PyQuery(url='https://fe-api.zhaopin.com/c/i/sou?pageSize=10&cityId=576&workExperience=-1&education=-1&companyType=-1&employmentType=-1&jobWelfareTag=-1&kt=3&at=50cd15f93b1d44a9b932e23d4ca36bf4&rt=b82c978f52794285acd6edddc6e3841e&_v=0.68229033&userCode=1050536241&x-zp-page-request-id=102b225166ca49e49d657dbe04cc53d0-1568817149115-205052&x-zp-client-id=61f51efe-0ce2-44dc-b5f6-429de05cad7e')
+print(res)
